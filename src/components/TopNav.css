@@ -29,3 +29,9 @@
     font-size: larger;
   }
 }
+
+@media (max-width: 450px) {
+  .navLinks h3 {
+    font-size: small;
+  }
+}
