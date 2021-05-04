@@ -30,6 +30,15 @@
   }
 }
 
+@media (max-width: 600px) {
+  .nav {
+    justify-content: center;
+  }
+  .navLogo {
+    display: none;
+  }
+}
+
 @media (max-width: 450px) {
   .navLinks h3 {
     font-size: small;

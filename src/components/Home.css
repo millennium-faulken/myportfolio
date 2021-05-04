@@ -118,6 +118,10 @@
     margin: auto;
   }
 
+  .about {
+    margin-top: 0px;
+  }
+
   .picture {
     margin: auto;
   }
@@ -137,7 +141,6 @@
 
   .about {
     font-size: small;
-    margin-top: 0px;
   }
 }
 
