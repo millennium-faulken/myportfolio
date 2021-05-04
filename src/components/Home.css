@@ -4,6 +4,7 @@
   justify-content: space-between;
   background-image: url("../pictures/pic7.jpg");
   background-size: cover;
+  background-position: center;
   height: 825px;
   border-radius: 10px;
 }
@@ -129,8 +130,14 @@
 }
 
 @media (max-width: 700px) {
+  .me {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
   .about {
     font-size: small;
+    margin-top: 0px;
   }
 }
 
