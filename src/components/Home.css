@@ -139,8 +139,13 @@
     font-size: larger;
   }
 
+  .me {
+    margin-bottom: 25px;
+  }
+
   .about {
     font-size: smaller;
+    margin-top: 0px;
   }
 }
 
