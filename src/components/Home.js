@@ -22,14 +22,7 @@ class Home extends Component {
             sit amet, consectetur adipiscing elit. Sed elementum iaculis sapien,
             ut condimentum ligula maximus a. Vestibulum ut bibendum libero.
             Integer ligula nibh, dignissim eu lectus sed, bibendum posuere elit.
-            Quisque lacinia dictum luctus. Mauris id posuere justo, eu egestas
-            nibh. Integer dignissim sem ut tortor placerat, a iaculis nisi
-            vulputate. Pellentesque feugiat nibh quis felis volutpat, vel
-            fermentum tortor ornare. Duis id tincidunt lectus. Nulla fringilla
-            ipsum id vehicula cursus. Maecenas lacus mauris, mattis rhoncus
-            auctor vitae, tempor at nisi. Curabitur a imperdiet elit. Fusce sed
-            lobortis magna, sit amet porttitor tellus. Vivamus malesuada leo vel
-            felis sagittis pellentesque.
+            Quisque lacinia dictum luctus. 
           </p>
         </div>
       </div>
