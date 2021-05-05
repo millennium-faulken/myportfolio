@@ -13,10 +13,13 @@
 .navLinks h3 {
   margin: 0px 5px 0px 5px;
   color: #45a29f;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navLogo h1 {
   color: #45a29f;
+  font-family: 'Poiret One', cursive;
+  /* font-family: 'Caveat', cursive; */
 }
 
 .navLinks a {

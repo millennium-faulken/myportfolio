@@ -7,14 +7,14 @@ class TopNav extends Component {
     return (
       <div className="nav">
         <div className="navLogo">
-          <h1>[Hello World!]</h1>
+          <h1>JMF</h1>
         </div>
         <nav className="navLinks">
           <Link to="/" style={{ textDecoration: "none" }}>
             <h3 className="h3">Home</h3>
           </Link>
-          <Link to="/Skills" style={{ textDecoration: "none" }}>
-            <h3 className="h3">Skills</h3>
+          <Link to="/Tech" style={{ textDecoration: "none" }}>
+            <h3 className="h3">Tech</h3>
           </Link>
           <Link to="/Portfolio" style={{ textDecoration: "none" }}>
             <h3 className="h3">Portfolio</h3>

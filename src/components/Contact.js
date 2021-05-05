@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import "./Contact.css";
+import axios from "axios";
 
 class Contact extends Component {
   render() {
     return (
-      <div className="mainHome">
-        <h1>Hola</h1>
+      <div className="mainSkills">
+        <h1>Hi</h1>
       </div>
     );
   }
