@@ -80,6 +80,7 @@
   border-radius: 20%;
   background: rgba(197, 198, 200, 0.5);
   text-align: center;
+  box-shadow: 5px 5px 8px 3px rgba(0, 0, 0, 0.7);
 }
 
 .javascriptLogo {
