@@ -89,7 +89,7 @@ class Home extends Component {
           </div>
         </div>
         <footer>
-          <h3>Justin Faulkenberry</h3>
+          <h4>&#169; Justin Faulkenberry 2021</h4>
         </footer>
       </div>
     );

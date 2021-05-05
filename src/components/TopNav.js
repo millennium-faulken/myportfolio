@@ -13,9 +13,6 @@ class TopNav extends Component {
           <Link to="/" style={{ textDecoration: "none" }}>
             <h3 className="h3">Home</h3>
           </Link>
-          <Link to="/Tech" style={{ textDecoration: "none" }}>
-            <h3 className="h3">Tech</h3>
-          </Link>
           <Link to="/Portfolio" style={{ textDecoration: "none" }}>
             <h3 className="h3">Portfolio</h3>
           </Link>
