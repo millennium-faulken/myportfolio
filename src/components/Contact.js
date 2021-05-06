@@ -11,7 +11,8 @@ function Contact() {
 
   const ref = firebase.firestore().collection("portfolio");
 
-  function addMessage() {
+  function addMessage(event) {
+    event.preventDefault()
     const newMessage = {
       name,
       email,
@@ -68,7 +69,7 @@ function Contact() {
           <FaLinkedin />
         </a>
         <a
-          href="https://www.github.com/millennium-faulken"
+          href="https://www.github.com/millennium-faulken/"
           target="_blank"
           rel="noreferrer"
         >
