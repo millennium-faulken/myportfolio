@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Picture from "../pictures/ResumePicCircle.png";
-import react from "../logo/react.svg";
+import react from "../logo/react.png";
 import javascript from "../logo/javascript.png";
 import html from "../logo/html5.png";
 import css from "../logo/css.png";
@@ -40,6 +40,11 @@ class Home extends Component {
         <div className="homeSkills">
           <div className="skillsTitle">
             <h1>Tech Skills</h1>
+            <p>
+              This is just a paragraph that will be about me, Lorem ipsum dolor
+              sit amet, consectetur adipiscing elit. Sed elementum iaculis
+              sapien, ut condimentum ligula maximus a.
+            </p>
           </div>
           <div className="mainSkills">
             <div className="skillsBox">

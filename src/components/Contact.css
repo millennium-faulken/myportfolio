@@ -1,37 +1,50 @@
 .mainContact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.form {
-  width: 30%;
+  background-color: #45a29f;
+  height: 800px;
+  border-radius: 0px 0px 10px 10px;
   display: flex;
   flex-direction: column;
 }
 
-.nameInput {
-  width: 50%;
-  height: 20px
+.contactTitle {
+  text-align: center;
 }
 
-.emailInput {
-  width: 50%;
-  height: 20px
+.contactTitle h1 {
+  font-size: 50px;
+  text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
 }
 
-.messageInput {
-  height: 150px;
+form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 
-.form button {
-  margin-top: 25px;
-  width: 25%;
-  margin: 25px auto 25px auto;
+textarea {
+  resize: none;
+  height: 100px;
 }
 
-@media (max-width: 500px) {
-  .form {
-    width: 80%;
-  }
+button {
+  width: 33%;
+  margin: 20px auto 0px auto;
+}
+
+button:hover {
+  background: #262626;
+  color: #fff;
+}
+
+.socialMedia {
+  width: 300px;
+  display: flex;
+  margin: 0px auto 0px auto;
+  justify-content: space-evenly;
+}
+
+.socialMedia a {
+  color: black;
+  font-size: 40px;
 }
