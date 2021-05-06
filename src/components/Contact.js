@@ -55,8 +55,10 @@ function Contact() {
           onChange={(e) => setMessage(e.target.value)}
         />
         <button onClick={() => addMessage()}>SUBMIT</button>
+        <div className="successContainer">
+          {submitted && <div className="success">Sent, thank you!</div>}
+        </div>
       </form>
-      {submitted && <div className="success">Sent, thank you!</div>}
       <div className="socialMedia">
         <a
           href="https://www.linkedin.com/in/justin-faulkenberry/"
