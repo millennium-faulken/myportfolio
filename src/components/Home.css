@@ -100,6 +100,10 @@
   font-size: 1vw;
 }
 
+.skillsBox h2 {
+  margin-bottom: 10px;
+}
+
 .reactLogo {
   width: 62.5%;
   margin-top: 15px;
@@ -189,9 +193,9 @@ footer {
   }
 
   .about h1 {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
-  
+
   .about p {
     font-size: 1.5vw;
   }
@@ -219,44 +223,120 @@ footer {
   }
 
   .homeSkills {
-    background-color: #202833;
-    border-radius: 0px 0px 10px 10px;
     padding-bottom: 25px;
   }
 
   .homeSkills h1 {
-    color: #c5c6c8;
-    font-size: 2.5vw;
-    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
-    margin-left: 2.5%;
+    font-size: 3vw;
   }
 
   .skillsTitle {
     padding: 3% 0px 0px 0px;
-    color: #c5c6c8;
   }
 
   .skillsTitle p {
-    font-size: 1vw;
-    margin-left: 2.5%;
-    width: 60%;
-  }
-
-  .mainSkills {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: space-around;
+    font-size: 2vw;
+    width: 75%;
   }
 
   .skillsBox {
-    margin-top: 20px;
-    width: 17%;
-    border-radius: 20%;
-    background: rgba(197, 198, 200, 0.5);
-    text-align: center;
-    box-shadow: 5px 5px 8px 3px rgba(0, 0, 0, 0.7);
-    font-size: 1vw;
+    font-size: 1.2vw;
+  }
+
+  .skillsBox h2 {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .homeAbout {
+    background-position: 0% 0%;
+  }
+
+  .picture {
+    width: 45%;
+  }
+
+  .about {
+    width: 75%;
+    border-radius: 5px;
+    margin: 50px auto 50px auto;
+  }
+
+  .about h1 {
+    font-size: 4vw;
+  }
+
+  .about p {
+    font-size: 2.2vw;
+  }
+
+  .name h1 {
+    font-size: 5vw;
+  }
+
+  .name h4 {
+    font-size: 3vw;
+  }
+  
+  .skillsTitle {
+    padding: 3% 0px 0px 0px;
+  }
+
+  .skillsTitle h1 {
+    font-size: 4vw;
+  }
+
+  .skillsTitle p {
+    font-size: 2.5vw;
+    width: 80%;
+  }
+
+  .skillsBox {
+    font-size: 1.5vw;
+  }
+
+  .skillsBox h2 {
+    margin-bottom: 5px;
+  }
+
+  .reactLogo {
+    margin-top: 10px;
+  }
+  
+  .javascriptLogo {
+    margin-top: 10px;
+  }
+  
+  .htmlLogo {
+    margin-top: 10px;
+  }
+  
+  .cssLogo {
+    margin-top: 10px;
+  }
+  
+  .nodeLogo {
+    margin-top: 10px;
+  }
+  
+  .mongoLogo {
+    margin-top: 10px;
+  }
+  
+  .exLogo {
+    margin-top: 10px;
+  }
+  
+  .firebaseLogo {
+    margin-top: 10px;
+  }
+  
+  .pythonLogo {
+    margin-top: 10px;
+  }
+  
+  .unityLogo {
+    margin-top: 10px;
   }
 }

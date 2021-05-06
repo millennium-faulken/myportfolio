@@ -43,6 +43,9 @@
 }
 
 @media (max-width: 450px) {
+  .nav {
+    height: 50px;
+  }
   .navLinks h3 {
     font-size: small;
   }
