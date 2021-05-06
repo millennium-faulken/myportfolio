@@ -341,7 +341,7 @@ footer {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .homeAbout {
     background-position: 0% 0%;
   }
