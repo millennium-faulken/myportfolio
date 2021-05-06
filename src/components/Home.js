@@ -41,7 +41,7 @@ class Home extends Component {
           <div className="skillsTitle">
             <h1>Tech Skills</h1>
             <p>
-              This is just a paragraph that will be about me, Lorem ipsum dolor
+              This is just a paragraph that will be my tech skills, Lorem ipsum dolor
               sit amet, consectetur adipiscing elit. Sed elementum iaculis
               sapien, ut condimentum ligula maximus a.
             </p>

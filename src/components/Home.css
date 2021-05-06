@@ -342,10 +342,6 @@ footer {
 }
 
 @media (max-width: 500px) {
-  .homeAbout {
-    background-position: 0% 0%;
-  }
-
   .me {
     margin-top: 30px;
   }
@@ -377,18 +373,58 @@ footer {
 
   .skillsTitle h1 {
     font-size: 5vw;
-    margin-left: 15px;
+    margin-left: 0px;
+    text-align: center;
   }
 
   .skillsTitle p {
     font-size: 2.7vw;
     width: 80%;
-    margin-left: 15px;
-    margin-bottom: 0px;
+    margin: 5px auto 0px auto;
   }
 
   .skillsBox {
     font-size: 2vw;
     width: 28%;
+  }
+}
+
+@media (max-width: 390px) {
+   .picture {
+    width: 75%;
+    margin-bottom: 5px;
+  }
+
+  .name h1 {
+    font-size: 6.5vw;
+  }
+
+  .name h4 {
+    font-size: 4.5vw;
+  }
+
+  .about h1 {
+    font-size: 6vw;
+  }
+
+  .about p {
+    font-size: 3.1vw;
+  }
+
+
+  .skillsTitle h1 {
+    font-size: 6vw;
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .skillsTitle p {
+    font-size: 3.1vw;
+    width: 90%;
+  }
+
+  .skillsBox {
+    font-size: 3vw;
+    width: 40%;
   }
 }
