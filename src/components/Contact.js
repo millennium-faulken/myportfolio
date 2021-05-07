@@ -27,12 +27,13 @@ function Contact() {
         console.error(err);
       });
     setSubmitted(true);
+    window.location.reload(false);
   }
 
   return (
     <div className="mainContact">
       <div className="contactTitle">
-        <h1>Contact Me</h1>
+        <h1>Let's Work Together</h1>
       </div>
       <form className="form">
         <h4 className="nameForm">Name</h4>
