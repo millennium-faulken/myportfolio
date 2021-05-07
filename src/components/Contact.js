@@ -55,7 +55,7 @@ function Contact() {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
-        <button onClick={() => addMessage()}>SUBMIT</button>
+        <button onClick={(event) => addMessage(event)}>SUBMIT</button>
         <div className="successContainer">
           {submitted && <div className="success">Sent, thank you!</div>}
         </div>
