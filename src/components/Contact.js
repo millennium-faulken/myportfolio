@@ -11,15 +11,13 @@ function Contact() {
 
   const ref = firebase.firestore().collection("portfolio");
 
-  function addMessage(event) {
-    event.preventDefault(event)
+  function addMessage() {
     const newMessage = {
       name,
       email,
       message,
       createdAt: firebase.firestore.FieldValue.serverTimestamp(),
     };
-
     ref
       .doc(newMessage.id)
       .set(newMessage)
@@ -27,7 +25,6 @@ function Contact() {
         console.error(err);
       });
     setSubmitted(true);
-    window.location.reload(false);
   }
 
   return (
@@ -56,9 +53,9 @@ function Contact() {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
-        <button onClick={(event) => addMessage(event)}>SUBMIT</button>
+        <button onClick={() => addMessage()}>SUBMIT</button>
         <div className="successContainer">
-          {submitted && <div className="success">Sent, thank you!</div>}
+          {submitted && <div className="success">Your message was sent, thank you!</div>}
         </div>
       </form>
       <div className="socialMedia">
