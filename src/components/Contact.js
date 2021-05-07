@@ -12,7 +12,7 @@ function Contact() {
   const ref = firebase.firestore().collection("portfolio");
 
   function addMessage(event) {
-    event.preventDefault()
+    event.preventDefault(event)
     const newMessage = {
       name,
       email,
