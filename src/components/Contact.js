@@ -27,7 +27,7 @@ function Contact() {
         console.error(err);
       });
     setSubmitted(true);
-    window.location.reload(false);
+    // window.location.reload(false);
   }
 
   return (
