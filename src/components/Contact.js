@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import firebase from "../firebase";
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 import "./Contact.css";
