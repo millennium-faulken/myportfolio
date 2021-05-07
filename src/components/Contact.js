@@ -11,13 +11,15 @@ function Contact() {
 
   const ref = firebase.firestore().collection("portfolio");
 
-  function addMessage() {
+  function addMessage(event) {
+    event.preventDefault(event)
     const newMessage = {
       name,
       email,
       message,
       createdAt: firebase.firestore.FieldValue.serverTimestamp(),
     };
+
     ref
       .doc(newMessage.id)
       .set(newMessage)
@@ -25,6 +27,7 @@ function Contact() {
         console.error(err);
       });
     setSubmitted(true);
+    window.location.reload(false);
   }
 
   return (
@@ -53,11 +56,11 @@ function Contact() {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
-        <button onClick={() => addMessage()}>SUBMIT</button>
-      </form>
+        <button onClick={(event) => addMessage(event)}>SUBMIT</button>
         <div className="successContainer">
           {submitted && <div className="success">Your message was sent, thank you!</div>}
         </div>
+      </form>
       <div className="socialMedia">
         <a
           href="https://www.linkedin.com/in/justin-faulkenberry/"
