@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import firebase from "../firebase";
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 import "./Contact.css";
@@ -11,8 +11,14 @@ function Contact() {
 
   const ref = firebase.firestore().collection("portfolio");
 
+  function refresh() {
+    setName("");
+    setEmail("");
+    setMessage("");
+  }
+
   function addMessage(event) {
-    event.preventDefault()
+    event.preventDefault();
     const newMessage = {
       name,
       email,
@@ -27,7 +33,7 @@ function Contact() {
         console.error(err);
       });
     setSubmitted(true);
-    // window.location.reload(false);
+    refresh();
   }
 
   return (
@@ -56,9 +62,16 @@ function Contact() {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
-        <button onClick={(event) => addMessage(event)}>SUBMIT</button>
+        <button
+          disabled={!name + !email + !message}
+          onClick={(event) => addMessage(event)}
+        >
+          SUBMIT
+        </button>
         <div className="successContainer">
-          {submitted && <div className="success">Your message was sent, thank you!</div>}
+          {submitted && (
+            <div className="success">Your message was sent, thank you!</div>
+          )}
         </div>
       </form>
       <div className="socialMedia">
