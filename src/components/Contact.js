@@ -34,6 +34,9 @@ function Contact() {
       });
     setSubmitted(true);
     refreshInput();
+    setTimeout(() => {
+      setSubmitted(false);
+    }, 3000);
   }
 
   return (
