@@ -29,11 +29,10 @@ class Home extends Component {
           <div className="about">
             <h1>About Me</h1>
             <p>
-              This is just a paragraph that will be about me, Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit. Sed elementum iaculis
-              sapien, ut condimentum ligula maximus a. Vestibulum ut bibendum
-              libero. Integer ligula nibh, dignissim eu lectus sed, bibendum
-              posuere elit. Quisque lacinia dictum luctus.
+              Welcome, my name is Justin, and I am a Software Engineer living in
+              Austin, Texas. When I’m not spending my days coding, I'm usually
+              outside enjoying the Texas sun, whether that be on Lady Bird Lake
+              or just relaxing at the park.
             </p>
           </div>
         </div>
@@ -41,9 +40,10 @@ class Home extends Component {
           <div className="skillsTitle">
             <h1>Tech Skills</h1>
             <p>
-              This is just a paragraph that will be my tech skills, Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit. Sed elementum iaculis
-              sapien, ut condimentum ligula maximus a.
+              I specialize in responsive, full stack web development and love
+              learning new languages and technologies every day. I have
+              extensive knowledge in using a MERN stack and working with CSS.
+              Below are some of the languages and tech I use daily:
             </p>
           </div>
           <div className="mainSkills">
