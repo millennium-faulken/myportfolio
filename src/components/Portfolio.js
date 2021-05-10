@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./Portfolio.css";
-import urgentapp from "../pictures/urgentapp.png";
 import urgently from "../pictures/urgently.png";
 
 class Portfolio extends Component {
@@ -24,6 +23,13 @@ class Portfolio extends Component {
           <li>JavaScript - React.js</li>
           <li>Firebase</li>
           <li>CSS</li>
+          <a
+            href="https://github.com/millennium-faulken/urgent"
+            target="_blank"
+            rel="noreferrer"
+          >
+          Github Repo
+          </a>
           <div className="urgentImg">
             <a
               href="https://urgently.netlify.app/"
