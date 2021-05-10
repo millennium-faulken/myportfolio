@@ -278,7 +278,7 @@ footer {
   .name h4 {
     font-size: 3vw;
   }
-  
+
   .skillsTitle {
     padding: 3% 0px 0px 0px;
   }
@@ -303,39 +303,39 @@ footer {
   .reactLogo {
     margin-top: 10px;
   }
-  
+
   .javascriptLogo {
     margin-top: 10px;
   }
-  
+
   .htmlLogo {
     margin-top: 10px;
   }
-  
+
   .cssLogo {
     margin-top: 10px;
   }
-  
+
   .nodeLogo {
     margin-top: 10px;
   }
-  
+
   .mongoLogo {
     margin-top: 10px;
   }
-  
+
   .exLogo {
     margin-top: 10px;
   }
-  
+
   .firebaseLogo {
     margin-top: 10px;
   }
-  
+
   .pythonLogo {
     margin-top: 10px;
   }
-  
+
   .unityLogo {
     margin-top: 10px;
   }
@@ -390,7 +390,7 @@ footer {
 }
 
 @media (max-width: 390px) {
-   .picture {
+  .picture {
     width: 75%;
     margin-bottom: 5px;
   }
@@ -410,7 +410,6 @@ footer {
   .about p {
     font-size: 3.1vw;
   }
-
 
   .skillsTitle h1 {
     font-size: 6vw;

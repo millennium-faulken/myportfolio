@@ -7,11 +7,11 @@ function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [submitted, setSubmitted] = useState(false);
+  const [submitted, setSubmitted] = useState(true);
 
   const ref = firebase.firestore().collection("portfolio");
 
-  function refresh() {
+  function refreshInput() {
     setName("");
     setEmail("");
     setMessage("");
@@ -33,7 +33,7 @@ function Contact() {
         console.error(err);
       });
     setSubmitted(true);
-    refresh();
+    refreshInput();
   }
 
   return (
