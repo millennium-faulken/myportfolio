@@ -10,7 +10,7 @@
 }
 
 .contactTitle h1 {
-  font-size: 50px;
+  font-size: 3vw;
   text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
 }
 
@@ -52,7 +52,7 @@ button:hover {
 }
 
 .socialMedia {
-  width: 300px;
+  width: 30%;
   display: flex;
   margin: 0px auto 0px auto;
   justify-content: space-evenly;
@@ -64,7 +64,6 @@ button:hover {
 }
 
 .successContainer {
-  width: 100%;
   margin-bottom: 80px;
 }
 
@@ -76,12 +75,20 @@ button:hover {
 
 @media (max-width: 500px) {
   form {
-    width: 200px;
+    width: 80%;
     margin: 20px auto 10px auto;
+  }
+
+  button {
+    width: 50%;
   }
 
   .contactTitle {
     margin-top: 10px;
+  }
+
+  .contactTitle h1 {
+    font-size: 11vw;
   }
 
   .success {
@@ -90,5 +97,9 @@ button:hover {
 
   .successContainer {
     margin-bottom: 0px;
+  }
+
+  .socialMedia {
+    width: 80%;
   }
 }
