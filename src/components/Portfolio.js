@@ -16,8 +16,7 @@ class Portfolio extends Component {
             <h1>Urgent!</h1>
           </a>
           <h4>
-            A to-do list app with user sign-in, authentication, get, post,
-            delete functionality
+            A to-do list app with user sign-in, authentication, and CRUD functionality
           </h4>
           <h3>Tech Used:</h3>
           <li>JavaScript - React.js</li>
