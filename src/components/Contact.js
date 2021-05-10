@@ -70,7 +70,9 @@ function Contact() {
         </button>
         <div className="successContainer">
           {submitted && (
-            <div className="success">Your message was sent, thank you!</div>
+            <div className="success">
+              <p>Your message was sent, thank you!</p>
+            </div>
           )}
         </div>
       </form>

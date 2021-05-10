@@ -64,13 +64,21 @@ button:hover {
 }
 
 .successContainer {
-  margin-bottom: 80px;
+  height: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .success {
   text-align: center;
   margin: 15px;
   font-size: xx-large;
+}
+
+.success p {
+  font-size: 2vw;
 }
 
 @media (max-width: 500px) {
@@ -84,7 +92,7 @@ button:hover {
   }
 
   .contactTitle {
-    margin-top: 10px;
+    margin-top: 0px;
   }
 
   .contactTitle h1 {
@@ -93,6 +101,10 @@ button:hover {
 
   .success {
     font-size: larger;
+  }
+
+  .success p {
+    font-size: 3.5vw;
   }
 
   .successContainer {
