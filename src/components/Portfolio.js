@@ -26,6 +26,7 @@ class Portfolio extends Component {
             href="https://github.com/millennium-faulken/urgent"
             target="_blank"
             rel="noreferrer"
+            className="github"
           >
           Github Repo
           </a>
