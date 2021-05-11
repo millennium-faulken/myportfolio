@@ -1,25 +1,29 @@
 .mainPortfolio {
   text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding: 5px 20px 20px 20px;
+  border-radius: 5px;
 }
 
 .portfolioPageTitle {
   font-size: 3vw;
   text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
+  margin-bottom: 10px;
 }
 
-.projects {
+.urgentProject {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
 }
 
-.projects h1 {
+.urgentProject h1 {
   text-decoration: underline;
   color: black;
 }
 
-.projects h4 {
+.urgentProject h4 {
   text-align: left;
 }
 
@@ -31,7 +35,7 @@ a {
   color: black;
 }
 
-.projects h4 {
+.urgentProject h4 {
   margin-bottom: 20px;
 }
 
@@ -55,15 +59,15 @@ a {
     margin-top: 10px;
   }
 
-  .projects h1 {
+  .urgentProject h1 {
     font-size: 5vw;
   }
 
-  .projects h4 {
+  .urgentProject h4 {
     font-size: 3vw;
   }
 
-  .projects h3 {
+  .urgentProject h3 {
     font-size: 3.8vw;
   }
 

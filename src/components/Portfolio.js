@@ -7,7 +7,7 @@ class Portfolio extends Component {
     return (
       <div className="mainPortfolio">
         <h1 className="portfolioPageTitle">Projects</h1>
-        <div className="projects">
+        <div className="urgentProject">
           <a
             href="https://urgently.netlify.app/"
             target="_blank"
@@ -16,7 +16,8 @@ class Portfolio extends Component {
             <h1>Urgent!</h1>
           </a>
           <h4>
-            A to-do list app with user sign-in, authentication, and CRUD functionality
+            A to-do list app with user sign-in, authentication, and CRUD
+            functionality
           </h4>
           <h3>Tech Used:</h3>
           <li>JavaScript - React.js</li>
@@ -28,7 +29,7 @@ class Portfolio extends Component {
             rel="noreferrer"
             className="github"
           >
-          Github Repo
+            Github Repo
           </a>
           <div className="urgentImg">
             <a
