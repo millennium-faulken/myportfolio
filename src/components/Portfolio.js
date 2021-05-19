@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Portfolio.css";
-import urgently from "../pictures/urgently.png";
+import urgently from "../pictures/urgent.png";
 
 class Portfolio extends Component {
   render() {
@@ -8,6 +8,15 @@ class Portfolio extends Component {
       <div className="mainPortfolio">
         <h1 className="portfolioPageTitle">Projects</h1>
         <div className="urgentProject">
+          <div className="urgentImg">
+            <a
+              href="https://urgently.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={urgently} className="urgent" alt="urgent" />
+            </a>
+          </div>
           <a
             href="https://urgently.netlify.app/"
             target="_blank"
@@ -31,15 +40,9 @@ class Portfolio extends Component {
           >
             Github Repo
           </a>
-          <div className="urgentImg">
-            <a
-              href="https://urgently.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={urgently} className="urgent" alt="urgent" />
-            </a>
-          </div>
+        </div>
+        <div className="comingSoon">
+          <h1 className="more">More Coming Soon!</h1>
         </div>
       </div>
     );
