@@ -1,13 +1,52 @@
 import React, { Component } from "react";
 import "./Portfolio.css";
 import urgently from "../pictures/urgent.png";
+import bubble from "../pictures/bubble.PNG";
 import messages from "../pictures/messages.png";
+import { BiMessageRoundedError } from "react-icons/bi";
 
 class Portfolio extends Component {
   render() {
     return (
       <div className="mainPortfolio">
         <h1 className="portfolioPageTitle">Projects</h1>
+        <div className="urgentProject">
+          <div className="urgentImg">
+            <a
+              href="https://bubbleitup.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={bubble} className="urgent" alt="urgent" />
+            </a>
+          </div>
+          <a
+            href="https://urgently.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h1 className="logo">
+              bubble
+              <BiMessageRoundedError />
+            </h1>
+          </a>
+          <h4>
+            A real-time web messaging app with active/inactive user list, and
+            google sign-in or email/password authentication.
+          </h4>
+          <h3>Tech Used:</h3>
+          <li>JavaScript - React.js</li>
+          <li>Firebase</li>
+          <li>CSS</li>
+          <a
+            href="https://github.com/millennium-faulken/messenger"
+            target="_blank"
+            rel="noreferrer"
+            className="github"
+          >
+            Github Repo
+          </a>
+        </div>
         <div className="urgentProject">
           <div className="urgentImg">
             <a
