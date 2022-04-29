@@ -5,7 +5,7 @@
 .portfolioPageTitle {
   font-size: 3vw;
   text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
-  margin-bottom: 25px;
+  margin: 0 auto 35px auto;
 }
 
 .urgentProject {
@@ -19,7 +19,7 @@
   padding: 25px;
 }
 
-.urgentProject h1 {
+.logo {
   text-decoration: underline;
   color: black;
 }

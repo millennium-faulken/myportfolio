@@ -9,8 +9,8 @@ class Portfolio extends Component {
   render() {
     return (
       <div className="mainPortfolio">
-        <h1 className="portfolioPageTitle">Projects</h1>
         <div className="urgentProject">
+          <h1 className="portfolioPageTitle">Projects</h1>
           <div className="urgentImg">
             <a
               href="https://bubbleitup.netlify.app/"
@@ -21,7 +21,7 @@ class Portfolio extends Component {
             </a>
           </div>
           <a
-            href="https://urgently.netlify.app/"
+            href="https://bubbleitup.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
